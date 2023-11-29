@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+:root{
+    --primary: #F4D03E;
+    --secondry: #383737;
+    --third: #fbe17a52;
+    --footer: #232323;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* -------------Navbar Styles---------------- */
+
+/* body{
+    height: 200vh;
+} */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    /* border: 1px solid red; */
+    width: 100%;
+    position: sticky;
+    top: 0;
+    margin-top: 5px;
+    background-color: white;
+    padding: 0 50px;
+}
+
+ul{
+    /* border: 1px solid red; */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
+
+
+li{
+    color: #383737a9;
+}
+
+
+ul a:hover{
+    color: black;
+}
+
+a:focus{
+    color: black;
+}
+
+.contact-btn{
+    /* border: 1px solid blue; */
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary);
+    color: var(--secondry);
+    margin-right: 15px;
+   
+}
+
+.contact-btn:hover{
+    background: #F4D03E;
+    box-shadow: 2px 4px 10px 0px #CBB971;
+    transition: ease-in-out 0.8ms;
+}
+
+/* --------------------------------------------------Navbar Ends here---------------------------------- */
+
+/* --------------------------------------------------Forms starts here--------------------------------- */
+
+
+.contact{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    background-color: #f4d03ec0;
+    /* border-radius: 20px; */
+    gap: 50px;
+    /* margin: 0 400px; */
+    /* width: 800px; */
+    padding: 40px;
+}
+
+.heading{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.form{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs input{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding-left: 20px;
+    
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.btn{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    margin-right: 15px;
+    border: 1px solid lightgrey;
+}
+
+.heading h1{
+    font-size: 34px;
+}
+
